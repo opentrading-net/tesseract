@@ -16,4 +16,4 @@ In the above example there is simple criteria:
 
 In this example the data is rendered in a grid and the only actions available are standard update and view management actions.
 
-Defines a view creates not only a user interface it also creates a dynamic API for systematic access to the same data (see [View API](ViewAPI.mv)).
+Defines a view creates not only a user interface it also creates a dynamic API for systematic access to the same data (see [View API](ViewAPI.md)).
