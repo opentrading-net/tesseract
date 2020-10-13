@@ -1,2 +1,2 @@
-# tesseract-wiki
-Public wiki documentation for Tesseract
+# Tesseract
+Public documentation for Tesseract
