@@ -2,7 +2,7 @@
 
 ![Object Store](Images/ObjectStore.png)
 
-The premise behind [Tesseract](Tesseract.md) is that developing applications using persisted objects is much quicker than using a traditional relational database and business object mapping layer.
+The premise behind [Tesseract](index.md) is that developing applications using persisted objects is much quicker than using a traditional relational database and business object mapping layer.
 
 Objects are held in an in-memory cache with persistence as JSON blobs to a relational database.
 

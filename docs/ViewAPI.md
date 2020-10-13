@@ -3,15 +3,15 @@ The View API is a dynamically generated interface that allows client systems to 
 
 The View API is a REST JSON based API in the [OpenApi](https://swagger.io/specification/) format. For a given view ({view} placeholder below) the REST interface will be:
 
-* ```http://my tesseract instance/api/{view}/swagger-ui?session={session name}``` 
+* ```http://{tesseract host}/api/{view}/swagger-ui?session={session name}``` 
     * HTTP GET 
     * Renders Swagger UI view of the API
-* ```http://my tesseract instance/api/{view}/openapi.json?session=<session name>``` 
+* ```http://{tesseract host}/api/{view}/openapi.json?session=<session name>``` 
     * HTTP GET 
     * Returns the [OAS3](https://swagger.io/specification/) JSON specification for the API
-* ```http://my tesseract instance/api/{view}?session={session name}&criteria={escaped JSON}``` 
+* ```http://{tesseract host}/api/{view}?session={session name}&criteria={escaped JSON}``` 
     * HTTP GET returns JSON data items for the supplied criteria
-* ```http://my tesseract instance/api/{view}/{action}?session={session name}```
+* ```http://{tesseract host}/api/{view}/{action}?session={session name}```
     * HTTP POST 
     * Executes view action with the supplied criteria, row data and action data and returns data items
     * Request payload is the view criteria, updated, created, deleted items and action data (if applicable)
